@@ -10,8 +10,8 @@ ReactDOM.render(
 
 export default meInReact
 */
-const title = React.createElement('h1', {}, 'An Awesome Person')
-const description = React.createElement('p', {}, 'Who is learning React')
+const title = React.createElement('h1', {}, 'An Awesome Person');
+const description = React.createElement('p', {}, 'Who is learning React');
 const list = React.createElement('ul', {className:'my-interests'},
       [
         React.createElement('li', {}, 'JavaScript'),
@@ -19,7 +19,7 @@ const list = React.createElement('ul', {className:'my-interests'},
         React.createElement('li', {}, 'Movies'),
         React.createElement('li', {}, 'Ice cream')
       ]
-    )
+    );
 
 const meInReact = React.createElement('div', {className: 'me'}, [title, description, list] )
 
