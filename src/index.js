@@ -10,5 +10,6 @@ ReactDOM.render(
 
 export default meInReact
 */
-const title = const meInReact = React.createElement('h1', {}, 'An Awesome Person' )
+const title = React.createElement('h1', {}, 'An Awesome Person')
+const description = React.createElement('p', {}, 'Who is learning React')
 const meInReact = React.createElement('div', {className: 'me'}, )
