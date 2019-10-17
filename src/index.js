@@ -14,7 +14,7 @@ const title = React.createElement('h1', {}, 'An Awesome Person')
 const description = React.createElement('p', {}, 'Who is learning React')
 const list = React.createElement('ul', {className:'my-interests'},
       [
-        React.createElement('li', {}, 'Chocolate'),
+        React.createElement('li', {}, 'JavaScript'),
         React.createElement('li', {}, 'Vanilla'),
         React.createElement('li', {}, 'Banana')
       ]
