@@ -22,3 +22,8 @@ const list = React.createElement('ul', {className:'my-interests'},
     )
 
 const meInReact = React.createElement('div', {className: 'me'}, [title, description, list] )
+
+ReactDOM.render(
+  meInReact,
+  document.getElementById('global')
+);
