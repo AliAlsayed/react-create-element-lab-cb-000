@@ -16,7 +16,7 @@ const list = React.createElement('ul', {className:'my-interests'},
       [
         React.createElement('li', {}, 'JavaScript'),
         React.createElement('li', {}, 'React'),
-        React.createElement('li', {}, 'Banana')
+        React.createElement('li', {}, 'Movies')
       ]
     )
 
