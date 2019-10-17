@@ -21,4 +21,4 @@ const list = React.createElement('ul', {className:'my-interests'},
       ]
     )
 
-const meInReact = React.createElement('div', {className: 'me'}, )
+const meInReact = React.createElement('div', {className: 'me'}, [title, description, list] )
